@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Website</title>
+    <!-- font awesome for icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Swiper Css linking -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">🐖 TeraFarm</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button"><i class="fas fa-times"></i></button>
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>    
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+          <button id="menu-open-button"><i class="fas fa-bars"></i></button>
+      </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">TeraFarm Backyard</h2>
+                    <h3 class="subtitle">Fresh, Local, and Sustainable</h3>
+                    <p class="description">Discover the joy of farm-fresh produce and sustainable living with TeraFarm Backyard.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/Hero image 5.png" alt="" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <!-- About-us section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+              <div class="about-image-wrapper">
+                <img src="images/About-us.png" alt="about us png" class="about-image">
+              </div>
+              <div class="about-details">
+                <h2 class="section-title">About Us</h2>
+                <p class="about-description">TeraFarm Backyard is a local farm dedicated to providing fresh, sustainable produce to our community. We believe in the power of nature and the importance of supporting local agriculture. Our mission is to grow healthy, delicious food while promoting environmental stewardship and community engagement.</p>
+              <div class="social-links">
+              <a href="" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            </div>
+
+        </section>
+        <!-- Product Section -->
+        <section class="product-section" id="products">
+          <h2 class="section-title">Our Products</h2>
+          <div class="section-content">
+            <ul class="product-list">
+              <li class="product-items">
+                <img src="images/product image 1.png" alt="Grower Pig" class="product-image">
+                <h3 class="product-name">Grower</h3>
+                <p class="text">Fast-growing, healthy, and farm-ready pigs raised to maximize your meat production and profit.</p>
+              <li class="product-items">
+                <img src="images/product image 2.png" alt="Piglets" class="product-image">
+                <h3 class="product-name">Piglets</h3>
+                <p class="text">Strong, well-bred piglets with excellent genetics to help you build a productive and profitable herd.</p>
+              </li>
+              <li class="product-items">
+                <img src="images/product image 3 new.png" alt="Grower Pig" class="product-image">
+                <h3 class="product-name">Sow</h3>
+                <p class="text">High-quality breeding sows known for fertility, strong maternal care, and consistent litter performance.</p>
+              </li>
+            </ul>
+          </div>
+          </section>
+          <!-- Testimonial section -->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">
+              Testimonials
+            </h2>
+            <div class="section-content">
+              <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                  <ul class="testimonials-list swiper-wrapper">
+                    <li class="testimonials swiper-slide">
+                      <img src="images/user generic image.jpg" alt="user" class="user-image">
+                      <h3 class="name">Purisema Galusong</h3>
+                      <i class="feedback">"The piglets we bought were healthy and very active. Highly recommended farm!"</i>
+                    </li>
+                    <li class="testimonials swiper-slide">
+                      <img src="images/user generic image.jpg" alt="user" class="user-image">
+                      <h3 class="name">Teresa Nanas</h3>
+                      <i class="feedback">“The sow we purchased is strong and very productive. Very satisfied with the service.”</i>
+                    </li>
+                    <li class="testimonials swiper-slide">
+                      <img src="images/user generic image.jpg" alt="user" class="user-image">
+                      <h3 class="name">Freddie Nanas</h3>
+                      <i class="feedback">“Our grower pigs adapted quickly and are growing fast. Thank you for the smooth deal.”</i>
+                    </li>
+                    <li class="testimonials swiper-slide">
+                      <img src="images/user generic image.jpg" alt="user" class="user-image">
+                      <h3 class="name">Michael Galusong</h3>
+                      <i class="feedback">“Healthy piglets at a reasonable price. Great value for money.”</i>
+                    </li>
+                    <li class="testimonials swiper-slide">
+                      <img src="images/user generic image.jpg" alt="user" class="user-image">
+                      <h3 class="name">Ferly Ann Noble</h3>
+                      <i class="feedback">“High-quality breeding stock and great customer support. We’ll be long-term clients for sure.”</i>
+                    </li>
+                  </ul>
+                    <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-slide-button swiper-button-prev"></div>
+                  <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">
+              Gallery
+            </h2>
+            <div class="section-content">
+              <ul class="gallery-list">
+                <li class="gallery-item">
+                  <img src="images/Gallery 2.jpg" alt="gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                  <img src="images/Gallery 3.jpg" alt="gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                  <img src="images/Gallery 4.jpg" alt="gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                  <img src="images/Gallery 5.jpg" alt="gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                  <img src="images/Gallery 9.jpg" alt="gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                  <img src="images/Gallery 7.jpg" alt="gallery" class="gallery-image">
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- contact Section -->
+        <section class="contact-section" id="contact">
+          <h2 class="section-title">
+            contact us
+          </h2>
+          <div class="section-content">
+            <ul class="contact-info-list">
+              <li class="contact-info">
+                <i class="fa-solid fa-crosshairs"></i>
+                <p>Brgy Calagtangan Miagao, Iloilo</p>
+              </li>
+              <li class="contact-info">
+                <i class="fa-solid fa-envelope"></i>
+                <p>nanascharlesnick0813@gmail.com</p>
+              </li>
+              <li class="contact-info">
+                <i class="fa-solid fa-phone"></i>
+                <p> 09293239637 </p>
+              </li>
+              <li class="contact-info">
+                <i class="fa-solid fa-clock"></i>
+                <p>Monday - Saturday: 8am - 5pm</p>
+              </li>
+              <li class="contact-info">
+                <i class="fa-solid fa-clock"></i>
+                <p> Sunday: Closed (It depends on demand)</p>
+              </li>
+              <li class="contact-info">
+                <i class="fa-solid fa-globe"></i>
+                <p> https://sites.google.com/view/charles-nick-nanas </p>
+              </li>
+            </ul>
+            <form action="#" class="contact-form">
+              <input type="text" placeholder="Your Name" class="form-input" required>
+              <input type="email" placeholder="Your Email" class="form-input" required>
+              <textarea placeholder="Your Message" class="form-input" required></textarea>
+              <button class="submit-button"> submit</button>
+            </form>
+          </div>
+        </section>
+        <!-- Footer Section -->
+         <footer class="footer-section">
+          <div class="section-content">
+            <p class="copyright-text">© 2026 TeraFarm</p>
+
+            <div class="social-links">
+              <a href="" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <p class="policy-text">
+              <a href="#" class="policy-link">Privacy Policy</a>
+              <span class="separator">.</span>
+              <a href="#" class="policy-link">Refund Policy</a>
+            </p>
+          </div>
+        </footer>
+    </main>
+<!-- Linking Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<!-- Linking custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
